@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         OutlinedButton(
                             onPressed: () async {
                               await model.getTxnToken(_controller.text,
-                                  "https://3c-2402-e280-2149-699-90f-434d-22ec-a98a.ngrok-free.app/startPayment/"); //localhost url
+                                  "https://54e2-2402-e280-2149-699-90f-434d-22ec-a98a.ngrok-free.app/startPayment/"); //localhost url
                               await invokeAllInOneSdk();
                             },
                             child: const Text("Submit"))
